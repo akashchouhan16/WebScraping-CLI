@@ -1,0 +1,16 @@
+{
+  "name": "webscrappingimdb",
+  "version": "1.0.0",
+  "description": "A web Scrapping tool using Node.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "akashchouhan16",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^8.0.0"
+  }
+}

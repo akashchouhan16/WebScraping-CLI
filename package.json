@@ -1,7 +1,7 @@
 {
-  "name": "webscrappingimdb",
+  "name": "webscrapingcli",
   "version": "1.0.0",
-  "description": "A web Scrapping tool using Node.",
+  "description": "A web Scraping tool using Node js and puppeteer.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

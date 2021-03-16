@@ -6,9 +6,6 @@ const puppeteer = require('puppeteer');
 const Data = require('./config');
 const prompt = require('prompt-sync')({sigint: true});
 
-// function validateURL(URL){
-    
-// }
 const validator = require('./validate.js');
 // IIFE For scrapping.
 (async ()=>{

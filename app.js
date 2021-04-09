@@ -6,15 +6,18 @@ const puppeteer = require('puppeteer');
 const Data = require('./config');
 const prompt = require('prompt-sync')({sigint: true});
 
+//Command Line Highlighting
+const color = require('colors');
+
 const validator = require('./validate.js');
 // IIFE For scrapping.
 (async ()=>{
 
-    const movieURL = prompt('Enter URL : ');
+    const movieURL = prompt('Enter URL : '.bold.green);
     // Input validation.
     validator(movieURL);
  
-    console.log(`Processing request on URI ${movieURL}.....`);
+    console.log(`Processing request on URI ${movieURL}.....`.bold.cyan);
     
     let browser = await puppeteer.launch();
     let page = await browser.newPage();
@@ -32,7 +35,7 @@ const validator = require('./validate.js');
     // });
     await page.waitForTimeout(500);
     const start = Date.now();
-    console.log("Processing...");
+    console.log("Processing...".bold.cyan);
     console.table(Data);
 try{
     await page.goto(movieURL, {waitUntil : 'networkidle2'});
@@ -69,7 +72,7 @@ try{
         ExitStatus : 0
     }
     console.table(Exit);
-    console.log("\n###################################### OUTPUT ##############################################");
+    console.log("\n###################################### OUTPUT ##############################################".bold.rainbow);
     console.table(scrappedData);
     
 
@@ -77,8 +80,8 @@ try{
     
     await browser.close();
 }catch(error){
-    console.warn(`######### Something Went Wrong while processing the request:/#########\nPress CRTL + C to quit.`);
-    let check = prompt('Enter Check to Log the Error : ');
+    console.warn(`######### Something Went Wrong while processing the request:/#########`.bold.red +`\nPress CRTL + C to quit.`.bold.cyan);
+    let check = prompt('Enter Check to Log the Error : '.bold.cyan);
     if(check === 'Check' || check === 'check'){
         console.error(error);
     }

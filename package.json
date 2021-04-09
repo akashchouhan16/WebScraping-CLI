@@ -1,14 +1,29 @@
 {
   "name": "webscrapingcli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A web Scraping tool using Node js and puppeteer.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashchouhan16/WebScraping-CLI/"
+  },
+  "keywords": [
+    "Nodejs",
+    "web scraping",
+    "javascript",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/akashchouhan16/WebScraping-CLI/issues"
+  },
+  "homepage": "https://github.com/akashchouhan16/WebScraping-CLI#readme",
   "author": "akashchouhan16",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "prompt-sync": "^4.2.0",
     "puppeteer": "^8.0.0"

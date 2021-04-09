@@ -5,9 +5,11 @@
 
 <!-- [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) -->
 
-This is a command line tool built using [Nodejs](https://nodejs.dev/learn) and the Google's Node library [Puppeteer](https://developers.google.com/web/tools/puppeteer) which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+- This is a command line tool built using [Nodejs](https://nodejs.dev/learn) and the Google's Node library [Puppeteer](https://developers.google.com/web/tools/puppeteer).
+- Provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol.
+- It can also be configured to use full (non-headless) Chrome or Chromium.
 
-The CLI takes **IMDb URI**, validates it and then scrapes contents to displays it in the output table. Checkout the previews [here](./previews).
+> The CLI takes **IMDb URI**, validates it and then scrapes contents to displays it in the output table. Checkout the previews [here](./previews).
 
 ---
 

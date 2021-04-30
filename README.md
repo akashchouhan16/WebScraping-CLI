@@ -1,7 +1,10 @@
 # WebScraping CLI
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/compatibility-betamax.svg)](https://forthebadge.com)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity "Repo Maintained")
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/akashchouhan16/ "github.com/akashchouhan16")
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/ "VSCODE")
+[![GitHub issues](https://img.shields.io/github/issues/akashchouhan16/WebScraping-CLI.svg)](https://github.com/akashchouhan16/WebScraping-CLI/issues)
+[![GitHub stars](https://img.shields.io/github/stars/akashchouhan16/WebScraping-CLI.svg?style=social)](https://github.com/akashchouhan16/WebScraping-CLI/stargazers) ![GitHub last commit](https://img.shields.io/github/last-commit/akashchouhan16/WebScraping-CLI.svg)
 
 <!-- [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) -->
 
@@ -35,6 +38,9 @@
 ---
 
 ## App Info
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/compatibility-betamax.svg)](https://forthebadge.com)
 
 ### Version
 

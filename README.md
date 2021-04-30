@@ -12,7 +12,9 @@
 - Provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol.
 - It can also be configured to use full (non-headless) Chrome or Chromium.
 
-> The CLI takes **IMDb URI**, validates it and then scrapes contents to displays it in the output table. Checkout the previews [here](./previews).
+NOTE : **The cli takes **IMDb URI**, validates it and then scrapes contents to displays it in the output table.**
+
+> **Checkout the previews [here](./previews).**
 
 ---
 
@@ -31,21 +33,23 @@
    npm run start
   ```
 
+---
+
 ## Preview
 
 > ![web scraping](./previews/success2.gif)
 
 ---
 
-## App Info
+## [Application Info](https://github.com/akashchouhan16/WebScraping-CLI "Web Scraping CLI")
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/compatibility-betamax.svg)](https://forthebadge.com)
 
 ### Version
 
-[1.0.3](https://github.com/akashchouhan16/WebScraping-CLI#readme, "Web Scraping CLI v1.0.3")
+**[1.0.3](https://github.com/akashchouhan16/WebScraping-CLI#readme, "Web Scraping CLI v1.0.3")**
 
 ### Licence
 
-[MIT](https://github.com/akashchouhan16/WebScraping-CLI/blob/master/LICENSE.md, "View LICENSE")
+**[MIT](https://github.com/akashchouhan16/WebScraping-CLI/blob/master/LICENSE.md, "View LICENSE")**
